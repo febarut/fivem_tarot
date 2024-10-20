@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#tarot-card {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+}
+
+.tarot-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tarot-card-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarot-card {
+    width: 100px;
+    height: auto;
+    transition: transform 0.5s ease;
+}
+
+#card-image-1, #card-image-2, #card-image-3, #card-image-4 {
+    width: 175px;
+    height: auto;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.card-description {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.card-name {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
