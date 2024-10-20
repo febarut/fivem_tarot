@@ -8,7 +8,7 @@ Bu script, **QB-Core** framework'ü ile uyumlu bir **tarot kartı** itemini oyun
    - QB-Core'in item listesine aşağıda belirtilen kodu ekleyin:
 
    ```lua
-   ['tarot_cards'] = { name = 'tarot_cards', label = 'Tarot Destesi', weight = 0, type = 'item', image = 'tarot_cards.png', unique = false, useable = true, shouldClose = true, description = 'İçerisinde tarot kartları olan bir kutu' }```
+   ['tarot_cards'] = { name = 'tarot_cards', label = 'Tarot Destesi', weight = 0, type = 'item', image = 'tarot_cards.png', unique = false, useable = true, shouldClose = true, description = 'İçerisinde tarot kartları olan bir kutu' }
 
 2. **İtem'in Resminin Eklenmesi:**
    QB-Inventory item resimlerinin bulunduğu klasöre ana klasörde bulunan `tarot_cards.png` dosyasını aktarın.
